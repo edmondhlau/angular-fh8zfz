@@ -1,0 +1,161 @@
+// Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+ background:white;
+ font-family: Montserrat;
+}
+.weekprogress {
+ width: 265px;
+ height: 310px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header {
+ width: 265px;
+ height: 68px;
+ display: flex;
+ .space {
+   width: 20px;
+ }
+ .title {
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 27px;
+   color: #4B5853;
+   width: 221px;
+   height: 47px;
+   align-self: flex-end;
+ }
+}
+.top {
+ width: 265px;
+ height: 17px;
+ display: flex;
+ .topPound {
+   color: #EE8B72;
+   font-size: 14px;
+   line-height: 17px;
+   width: 113px;
+   height: 17px;
+   text-align: center;
+ }
+}
+.topContents {
+ width: 265px;
+ height: 30px;
+ display: flex;
+ .push {
+   width: 20px;
+ }
+ .boldTop {
+   background: #EE8B72;
+   border-radius: 3px 0px 0px 3px;
+   width: 75px;
+   height: 27px;
+ }
+ .lightTop {
+   width: 168px;
+   height: 27px;
+   background: rgba(238, 139, 114, 0.3);
+   border-radius: 3px;
+ }
+ .topHour {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 27px;
+   color: #EE8B72;
+   width: 53px;
+   height: 27px;
+   text-align: right;
+ }
+}
+.midContainer {
+ width: 265px;
+ height: 37px;
+ display: flex;
+ .midPound {
+   color: #2DBDB1;
+   font-size: 14px;
+   line-height: 17px;
+   width: 120px;
+   height: 17px;
+   text-align: center;
+   align-self: flex-end;
+ }
+}
+.midContents {
+ width: 265px;
+ height: 30px;
+ display: flex;
+ .spaceTwo {
+   width: 20px;
+ }
+ .boldMid {
+   background: #2DBDB1;
+   border-radius: 3px 0px 0px 3px;
+   width: 101px;
+   height: 27px;
+ }
+ .lightMid {
+   color: #2DBDB1;
+   width: 136px;
+   height: 27px;
+   background: rgba(45, 189, 177, 0.3);
+   border-radius: 3px;
+ }
+ .midHour {
+   color: #2DBDB1;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 27px;
+   width: 53px;
+   height: 27px;
+   text-align: right;
+ }
+}
+.botContainer {
+ width: 265px;
+ height: 37px;
+ display: flex;
+ .botPound {
+   color: #FFB987;
+   font-size: 14px;
+   line-height: 17px;
+   width: 120px;
+   height: 17px;
+   text-align: center;
+   align-self: flex-end;
+ }
+}
+.botContainer {
+ width: 265px;
+ height: 30px;
+ display: flex;
+ .spaceThree {
+   width: 20px;
+ }
+ .boldBot {
+   background: #FFB987;
+   border-radius: 3px 0px 0px 3px;
+   width: 70px;
+   height: 27px;
+ }
+ .lightBot {
+   background: rgba(255, 185, 135, 0.3);
+   border-radius: 3px;
+   width: 112px;
+   height: 27px;
+ }
+ .botHour {
+   color: #FFB987;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 27px;
+   width: 53px;
+   height: 27px;
+   text-align: right;
+ }
+}
+// write your code here!!
